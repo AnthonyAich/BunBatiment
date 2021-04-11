@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'publica light';
+    src: url('/assets/font/PublicaSans-Light.otf')
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'publica light';
+}
+body {
+    display: grid;
+    grid-template-columns: 5.7fr  4.3fr;
+}
+nav {
+    top: 7%;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+nav .leftNav {
+    margin-left: 7.5vw;
+}
+
+nav .rightNav {
+    margin-right: 7.5vw;
+    width: 44.3%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.rightNav a {
+    text-decoration: none;
+    color: black;
+
+}
+.leftBackground {
+    background-color: #FFF;
+    height: 100vh;
+}
+
+.rightBackground {
+    width: 100%;
+}
+
+.leftContent {
+    margin-left: 7.5vw;
+}
+
+.leftContent h1 {
+    margin-top: 35vh;
+    font-size: 80px;
+}
+
+.leftContent p {
+    margin-top: 2vh;
+}
+
+.leftContent .buttonsIndex {
+    margin-top: 5vh;
+}
+
+.btn {
+    width: 180px;
+    height: 45px;
+    cursor: pointer;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+button.blue {
+    background-color: #0058FF;
+    color: #FFF;
+    border:none;
+}
+
+button.white {
+    background-color: #fff;
+    border: 1px solid rgb(59, 59, 59);
+    margin-left: 15px;
+}
